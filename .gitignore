@@ -1,0 +1,20 @@
+# IDE files
+*.classpath
+*.resources
+*.dat
+*.class
+*.xml
+*.xmi
+*.lock
+*.log
+*.ini
+*.properties
+*.project
+*.settings
+*.metadata
+*.gitignore
+*.recommenders
+*.txt
+
+# Exclude
+!.java

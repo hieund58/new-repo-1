@@ -1,12 +1,15 @@
-import java.util.Arrays;
-
 
 public class Tester {
 
 	public static void main(String[] args) {
-		ConstructRectangle ob = new ConstructRectangle();
-		int[] result = ob.constructRectangle(256);
-		System.out.println(Arrays.toString(result));
+//		int[] test = {1, 1, 2, 2, 3, 3};
+//		int[] test = {1, 1, 1, 2};
+		int[] test = {1, 2, 2, 2, 2, 2};
+		DistributeCandy ob = new DistributeCandy();
+		int result = ob.distributeCandies(test);
+		int resultSet = ob.distributeCandiesSet(test);
+		System.out.println(result);
+		System.out.println(result);
 	}
 
 }
